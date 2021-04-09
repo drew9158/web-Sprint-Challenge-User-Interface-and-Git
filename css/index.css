@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ^^^ Reset */
 
+/* vvv General Settings */
 * {
     box-sizing: border-box;
 }
@@ -65,7 +67,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* ^^^ General Settings */
 
+/* vvv Navigation */
 header nav {
     width: 100%;
     display: flex;
@@ -93,7 +97,9 @@ header nav {
     color: black;
     text-decoration: none;
 }
+/* ^^^ Navigation */
 
+/* vvv Splash Image */
 header .jumbo {
     width: 100%;
     display: flex;
@@ -103,12 +109,14 @@ header .jumbo {
 .jumbo img {
     margin: 20px;
 }
+/* ^^^ splash image */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* vvv Page Description */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +140,7 @@ header .jumbo {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* ^^^ Page Description */
 
 .middle-content {
     margin-bottom: 20px;
@@ -160,45 +169,38 @@ header .jumbo {
     justify-content: center;
 }
 
+/* Home Page Box Colors */
 #b1 {
     background: teal;
 }
-
 #b2 {
     background: gold;
 }
-
 #b3 {
     background: cadetblue;
 }
-
 #b4 {
     background: coral;
 }
-
 #b5 {
     background: crimson;
 }
-
 #b6 {
     background: forestgreen;
 }
-
 #b7 {
     background: darkorchid;
 }
-
 #b8 {
     background: hotpink;
 }
-
 #b9 {
     background: indigo;
 }
-
 #b10 {
     background: dodgerblue;
 }
+/* Home Page Box Colors */
 
 .bottom-content {
     display: flex;
