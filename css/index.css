@@ -82,11 +82,11 @@ header nav {
 }
 
 .links {
-    width: 500px;
+    width: 700px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
-    border: 1px solid black;
+    font-size: 14px;
 }
 
 .links a {
