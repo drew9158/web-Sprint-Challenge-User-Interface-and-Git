@@ -137,7 +137,7 @@ header .jumbo {
 
 .top-content .text-container.about-page {
     width: 100%;
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 /* ^^^ Page Description */
@@ -155,7 +155,7 @@ header .jumbo {
 
 .middle-content.about-page h2 {
     padding: 0;
-    margin-bottom: 0;
+    margin: 10px 0;
 }
 
 .middle-content .boxes {
@@ -180,15 +180,14 @@ header .jumbo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     border-bottom: none;
 }
 
 .middle-content.about-page article {
     width: 370px;
-    margin: 10px;
+    margin: 10px 0 50px 0;
     border-bottom: 1px dashed black;
-    /* justify-content: space-around; */
 }
 
 .middle-content.about-page article a {
@@ -250,6 +249,10 @@ header .jumbo {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content .text-container.about-page{
+    margin: 0 0 20px;
 }
 /* ^^^ Page Conclusion */
 
