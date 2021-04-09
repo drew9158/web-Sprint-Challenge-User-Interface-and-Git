@@ -142,6 +142,7 @@ header .jumbo {
 }
 /* ^^^ Page Description */
 
+/* vvv Page Main Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -149,6 +150,11 @@ header .jumbo {
 
 .middle-content h2 {
     padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content.about-page h2 {
+    padding: 0;
     margin-bottom: 0;
 }
 
@@ -169,7 +175,36 @@ header .jumbo {
     justify-content: center;
 }
 
-/* Home Page Box Colors */
+.middle-content.about-page {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: none;
+}
+
+.middle-content.about-page article {
+    width: 370px;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    /* justify-content: space-around; */
+}
+
+.middle-content.about-page article a {
+    display: flex;
+    width: 125px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* ^^^ Page Main Content */
+
+/* vvv Home Page Box Colors */
 #b1 {
     background: teal;
 }
@@ -200,8 +235,9 @@ header .jumbo {
 #b10 {
     background: dodgerblue;
 }
-/* Home Page Box Colors */
+/* ^^^ Home Page Box Colors */
 
+/* vvv Page Conclusion */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -215,6 +251,7 @@ header .jumbo {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ^^^ Page Conclusion */
 
 footer {
     width: 100%;
