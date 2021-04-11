@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ^^^ Reset */
 
+/* vvv General Settings */
 * {
     box-sizing: border-box;
 }
@@ -65,12 +67,56 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* ^^^ General Settings */
+
+/* vvv Navigation */
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 800px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.links {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+/* ^^^ Navigation */
+
+/* vvv Splash Image */
+header .jumbo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo img {
+    margin: 20px;
+}
+/* ^^^ splash image */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* vvv Page Description */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +131,18 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content.about-page {
+    justify-content: flex-start;
+}
+
+.top-content .text-container.about-page {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+/* ^^^ Page Description */
+
+/* vvv Page Main Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -93,6 +151,11 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content.about-page h2 {
+    padding: 0;
+    margin: 10px 0;
 }
 
 .middle-content .boxes {
@@ -112,6 +175,68 @@ p {
     justify-content: center;
 }
 
+.middle-content.about-page {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-bottom: none;
+}
+
+.middle-content.about-page article {
+    width: 370px;
+    margin: 10px 0 50px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content.about-page article a {
+    display: flex;
+    width: 125px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* ^^^ Page Main Content */
+
+/* vvv Home Page Box Colors */
+#b1 {
+    background: teal;
+}
+#b2 {
+    background: gold;
+}
+#b3 {
+    background: cadetblue;
+}
+#b4 {
+    background: coral;
+}
+#b5 {
+    background: crimson;
+}
+#b6 {
+    background: forestgreen;
+}
+#b7 {
+    background: darkorchid;
+}
+#b8 {
+    background: hotpink;
+}
+#b9 {
+    background: indigo;
+}
+#b10 {
+    background: dodgerblue;
+}
+/* ^^^ Home Page Box Colors */
+
+/* vvv Page Conclusion */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +250,11 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.bottom-content .text-container.about-page{
+    margin: 0 0 20px;
+}
+/* ^^^ Page Conclusion */
 
 footer {
     width: 100%;
